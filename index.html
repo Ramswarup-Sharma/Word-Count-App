@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>My Word Count Project</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Word Count</h1> <span id="sptag">09/01/2023</span>
+        <textarea id="word" class="inputField" name="message" oninput="countWord()" rows="8" cols="50" placeholder="Enter Something here ....."></textarea>
+        <br>
+        <div> 
+           <span id="wCount"> Word Count: 
+                <span id="show"> 0</span>
+            </span>
+            </div>
+        
+    <!-- <button id="btn" onclick="countWords()">
+        Count Words
+    </button> -->
+    </div>
+<br>
+    <!-- <div>  -->
+        <!-- <span id="delWords"> Delete Word: 
+             <span id="show"> 0</span>
+         </span>
+         </div> -->
+     <br><br>
+ <button id="dbtn" onclick="handleClick()">
+    Clear Val
+ </button>
+ </div>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

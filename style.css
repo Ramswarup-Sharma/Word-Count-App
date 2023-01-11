@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Philosopher', sans-serif;
+}
+
+body {
+    background-color: rgb(118, 58, 71);
+}
+
+
+h1 {
+    font-size: 25px;
+    width: 50vw;
+    height: 5vh;
+    padding-top: 7px;
+    margin-top: 20px;
+    margin-left: 340px;
+    background-color: black;
+    color: white;
+    /* background:rgb(126, 126, 125); */
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#sptag {
+    margin: auto;
+    display: flex;
+    position: absolute;
+    top: 31px;
+    right: 388px;
+    color: white;
+    box-shadow: 10px;
+}
+
+.inputField {
+    margin: auto;
+    display: flex;
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+   
+
+}
+
+#wCount{
+    font-size: 23px;
+    width: 41%;
+    height: 58px;
+    border: 2px solid black;
+    border-radius: 9px;
+    /* color: black; */
+    color: white;
+    /* background-color: rgb(170, 98, 221); */
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 460px;
+}
+
+#btn {
+    
+    margin: auto;
+    padding: 8px;
+    width: 88px;
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(170, 98, 221); */
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    border-radius: 8px;
+    font-size: 12px;
+    margin-left: 354px;
+    margin-top: -36px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: white;
+    color: black;
+}
+
+
+#delWords{
+    width: 41%;
+    height: 38px;
+    border: 2px solid black;
+    border-radius: 9px;
+    /* color: black; */
+    color: white;
+    /* background-color: rgb(170, 98, 221); */
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 460px;
+}
+
+#dbtn {
+    
+    margin: auto;
+    /* width: 90%; */
+    padding: 12px;
+    width: 88px;
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(170, 98, 221); */
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-left: 341px;
+    margin-top: -104px;
+    cursor: pointer;
+}
+
+
+#dbtn:hover {
+    background-color: white;
+    color: black;
+}
